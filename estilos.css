@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.column-1 {
+    margin-top:15%;
+    width: 60%;
+    float: left;
+    padding: 10px;
+    color: white;    
+}
+
+/*PAGINA ACTIVIDADES*/
+
+/*GALERIAS DE LA PAGINA ACTIVIDADES*/
+.galeria{
+    
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    padding: 4%;
+ 
+  }
+  
+  .galeria img{
+    object-fit: cover;
+    width: 20%;
+    height: 18vw;   
+    
+    padding: 1%;
+    border-radius: 10%;
+  }
+
+  /*SEGUNDA GALERIA DE LA PAGINA ACTIVIDADES*/
+  .galeria2{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+  }
+
+  .colummna5{
+    width: 33%;
+    padding: 10px;
+
+  }
+
+  .colummna5 img{ 
+    object-fit: cover;
+    width: 100%;    
+    border-radius: 10px;
+    height: 30vw;   
+
+  }
+
+  .botones{ 
+
+    float: right;
+
+  }
+
+
+
+
+/*PAGINA SOBRE NOSOTROS*/
+  
+
+  /*GALERIA SOBRE NOSOTROS*/
+
+  .galeria3{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+  }
+
+  .colummna4{
+    width: 25%;
+    padding: 10px;
+
+  }
+
+  .colummna4 img{ 
+    object-fit: cover;
+    width: 100%;    
+    border-radius: 10px;
+    height: 20vw;   
+
+  }
+
+  
+  /* Boton_decorativo */
+
+.Boton_decorativo{
+  margin-left: 50%;
+}
+
+
+  /*Imagen con botones de la pagina sobre nosotros*/
+  .contenedor{
+
+    width: 100%;
+    height: 30%;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+  .contenedor img{
+    width: 100%;
+    height: 100%;
+    
+  }
+  .contenedor p  {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+  }
+
+  .asiganturas{
+    display: flex;
+    flex-flow: wrap;
+ 
+  }
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width:800px) {
+
+.colummna5{
+  width: 50%;
+}
+.colummna4{
+  width: 50%;
+  height: 5%;
+}
+}
+
+@media screen and (max-width:600px) {
+
+  .colummna5{
+    width: 100%;
+  }
+
+}
+
